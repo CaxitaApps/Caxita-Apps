@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         
         
-        // viswas 
+        // viswas //changes 
         mainUrl = CommonFunctions.main_url+CommonFunctions.lang+"/";
 			
         new backLoginCheck().execute();
