@@ -1,2 +1,2 @@
 # Hjozzat
-Hjozzat native project
+Hjozzat web project
