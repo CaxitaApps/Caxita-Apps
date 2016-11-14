@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/home_bg" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_visa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#B30072BC"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="clicker"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_visa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_visa" />
+
+            <TextView
+                android:id="@+id/tv_visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text="@string/visa"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:orientation="vertical"
+            android:weightSum="3" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#BDBDBD" />
+
+            <LinearLayout
+                android:id="@+id/ll_flight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="clicker"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7"
+                    android:gravity="right|end|center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_flight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_flight" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_flight"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:text="@string/flight"
+                    android:textColor="@color/std_color"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#BDBDBD" />
+
+            <LinearLayout
+                android:id="@+id/ll_hotel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="clicker"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7"
+                    android:gravity="right|end|center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_hotel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_hotel_blue" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_hotel"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:text="@string/hotel"
+                    android:textColor="@color/std_color"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#BDBDBD" />
+
+            <LinearLayout
+                android:id="@+id/ll_my_booking"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="clicker"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".7"
+                    android:gravity="right|end|center_vertical" >
+
+                    <ImageView
+                        android:id="@+id/iv_my_booking"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:adjustViewBounds="true"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_my_booking" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_my_booking"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="@string/mybooking"
+                    android:textColor="@color/std_color"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ib_menu"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:background="@drawable/orange_button_curved_edge"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="clicker"
+                android:scaleType="fitCenter"
+                android:src="@drawable/drawer_btn"
+                android:text="@string/call_to_book"
+                android:textColor="@android:color/white" />
+
+            <ImageButton
+                android:id="@+id/ib_profile"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_button_curved_edge"
+                android:fontFamily="sans-serif-condensed"
+                android:onClick="clicker"
+                android:src="@drawable/ic_passenger"
+                android:text="@string/call_to_book"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/ll_call"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/orange_button_curved_edge"
+                android:gravity="center_vertical"
+                android:onClick="clicker" >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@string/call_to_book"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

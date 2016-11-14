@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="english">الإنجليزية</string>
+    <string name="arab">ic_en</string>
+    <string name="flight">الطيران</string>
+    <string name="hotel">فندق</string>
+    <string name="visa">تأشيرة</string>
+    <string name="mybooking">حجوزاتي</string>
+    <string name="lang">English</string>
+    <string name="round">عودة</string>
+    <string name="multi">مدن متعددة</string>
+    <string name="oneway">اتجاه واحد</string>
+    <string name="from">من</string>
+    <string name="to">إلى</string>
+    <string name="leaving">المغادرة من</string>
+    <string name="going">الذهاب الى</string>
+    <string name="depart">مغادرة</string>
+    <string name="dept">مغادرة</string>
+    <string name="retur">عودة</string>
+    <string name="arrival">الوصول</string>
+    <string name="outbound">الذهاب</string>
+    <string name="adult">الكبار</string>
+    <string name="children">الأطفال</string>
+    <string name="infant">رضيع</string>
+    <string name="search">بحث</string>
+    <string name="searchfor">بحث إلى ل المدينة أو مطار</string>
+    <string name="cityname">فندق الموقع (المدينة أو اسم الفندق)</string>
+    <string name="city">موقع الفندق</string>
+    <string name="clas">الدرجة</string>
+    <string name="direct">بدون توقف</string>
+    <string name="prefered">شركة الطيران المفضلة</string>
+    <string name="enterprefered">إدخال ك شركة الطيران المفضلة</string>
+    <string name="traveller">مسافرين</string>
+    <string name="abo">من نحن</string>
+    <string name="serv">خدماتنا</string>
+    <string name="mabo">دارة حجوزاتي</string>
+    <string name="cont">إتصل بنا</string>
+    <string name="or">أو</string>
+
+    <string name="economy">الدرجة السياحية</string>
+    <string name="business">رجال الأعمال</string>
+    <string name="first_class">الدرجة الأولى</string>
+    
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>الدرجة السياحية</item>
+        <item>السياحية الثانية</item>
+        <item>رجال الأعمال</item>
+        <item>الدرجة الأولى</item>
+    </string-array>
+
+    <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>غرفة 1</item>
+        <item>غرفة 2</item>
+        <item>غرفة 3</item>
+        <item>غرفة 4</item>
+        <item>غرفة 5</item>
+    </string-array>
+
+    <string name="no_match">لا يوجد مقالات مطابقة المعلمة بك</string>
+    <string name="error_title">خطأ</string>
+    <string name="error_msg_empty_dep_arr">الرجاء اختيار رحلة بشكل صحيح</string>
+    <string name="error_msg_same_dep_arr">لا يمكن اختيار نفس الوجهة في الذهاب والعودة</string>
+    <string name="error_msg_same_dep_arr_multi_1">ييجب المغادرة والوصول مطار لا يكون نفس  - رحلة 1 </string>
+    <string name="error_msg_same_dep_arr_multi_2">يجب المغادرة والوصول مطار لا يكون نفس  - رحلة 2 </string>
+    <string name="error_msg_same_dep_arr_multi_3">يجب المغادرة والوصول مطار لا يكون نفس - رحلة 3 </string>
+    <string name="error_msg_same_dep_arr_multi_4">يجب المغادرة والوصول مطار لا يكون نفس  - رحلة 4 </string>
+    <string name="error_search_lmt">إجمالي عدد الركاب لا يمكن أن يكون أكثر من 9</string>
+    <string name="error_infant_cnt">الرضع لا يمكن أن يكون أكثر من الكبار</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="error_no_internet_title">الوصول إلى الإنترنت غير متوفر</string>
+    <string name="error_no_internet_msg">يتطلب هذا التطبيق الدخول إلى الإنترنت العمل. يرجى الاتصال بالإنترنت و المحاولة مرة أخرى .</string>
+    <string name="error_no_internet_settings">إعدادات</string>
+    <string name="error_no_internet_cancel">إلغاء</string>
+    <string name="error_no_internet_close_app">انهيار التطبيق</string>
+    <string name="default_city_to">دبي</string>
+    <string name="default_city_from">الكويت</string>
+    <string name="exit_msg">انقر مرة أخرى للخروج</string>
+    <string name="passenger_no">المسافرين</string>
+    <string name="add_trip">إضافة رحلة أخرى</string>
+    <string name="remove_trip">إزالة رحلة</string>
+    <string name="nationality">جنسية</string>
+    <string name="room">غرف</string>
+    <string name="room1">غرفة 1</string>
+    <string name="room2">غرفة 2</string>
+    <string name="room3">غرفة 3</string>
+    <string name="room4">غرفة 4</string>
+    <string name="room5">غرفة 5</string>
+    <string name="cityorhotel">موقع الفندق</string>
+    <string name="type_city">نوع سيتي</string>
+    <string name="name">ابحث عن اسم الفندق</string>
+    <string name="adult1">الكبار (12+)</string>
+    <string name="child1">الأطفال  (2-11)</string>
+    <string name="infant1">رضيع (&lt;2)</string>
+    <string name="add_room">إضافة غرفة +</string>
+    <string name="remove_room">إزالة -</string>
+    <string name="guests">ضيوف</string>
+    <string name="adult_nos">عدد من بالغ</string>
+    <string name="child_nos">عدد من طفل</string>
+    <string name="child1_age">عمر الطفل 1</string>
+    <string name="child2_age">عمر الطفل 2</string>
+    <string name="child3_age">عمر الطفل 3</string>
+    <string name="child4_age">عمر طفل 4</string>
+    <string name="search_city_hotel">بحث عن المدينة أو فندق</string>
+    <string name="search_nation">بحث عن البلد</string>
+    <string name="err_msg_select_city">الرجاء إدخال مدينة صالحة</string>
+    <string name="err_msg_select_nation">من فضلك اختر الجنسية</string>
+    <string name="depart_date">تاريخ الذهاب</string>
+    <string name="arrival_date">تاريخ الوصول</string>
+    <string name="depart_time">وقت المغادرة</string>
+    <string name="arrival_time">وقت الوصول</string>
+    <string name="return_date">تاريخ العودة</string>
+    <string name="checkin_date">تأكيد الدخول</string>
+    <string name="checkout_date">تأكيد الخروج</string>
+    <string name="err_child_grt_adult">عدد الأطفال أقل من عامين لا يمكن أن يتجاوز الكبار</string>
+    <string name="years12">12+ سنة</string>
+    <string name="non_stop">بدون توقف</string>
+    <string name="one_stop">توقف</string>
+    <string name="more_stop">توقف</string>
+    <string name="modify">تعديل</string>
+    <string name="sort">ترتيب</string>
+    <string name="sortby">ترتيب</string>
+
+    <string-array name="sort_items_flight">
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_flight_heading">
+        <item>السعر</item>
+        <item>الذهاب</item>
+        <item>صولها</item>
+        <item>المدة</item>
+        <item>الطيران</item>
+    </string-array>
+
+    <string name="refine_search">حدد بحثك</string>
+    <string name="early_morning">Early Morning</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evning">Evening</string>
+    <string name="price">السعر</string>
+    <string name="duration">مدة الرحلة</string>
+    <string name="airline">الطيران</string>
+    <string name="layover">مدة التوقف</string>
+    <string name="layover_airports">مطارات التوقف</string>
+    <string name="stops">توقف</string>
+    <string name="one_stp">1 توقف الطيران</string>
+    <string name="one_plus_stp">1+ توقف طيران</string>
+    <string name="rating">تصنيفات النجوم</string>
+    <string name="boardtype">تصفية حسب الإفطار</string>
+    <string name="apply">تطبيق</string>
+    <string name="filter">فرز</string>
+    <string name="no_result">لا يوجد نتائج مطابقة لمعايير البحث</string>
+    <string name="lowest_first">الأقل أولا</string>
+    <string name="shortest_first">أقصر أولا</string>
+    <string name="highest_first">أعلى الأول</string>
+    <string name="longest_first">أطول لأول مرة</string>
+    <string name="searching_hotel">يرجى الانتظار بينما نحن نبحث أفضل الأسعار بالنسبة لك</string>
+    <string name="searching_flight">يرجى الانتظار بينما نحن نبحث أفضل الأسعار بالنسبة لك</string>
+    <string name="checking_hotel">وإذ تؤكد من جديد الأسعار...</string>
+    <string name="checking_flight">وإذ تؤكد من جديد الأسعار...</string>
+    <string name="loading">...جار التحميل</string>
+    <string name="flight_expired">تم تحديثها أجور السفر، وتحديث الأسعار الجديدة</string>
+    <string name="hotel_expired">تم تحديثها أجور السفر، وتحديث الأسعار الجديدة</string>
+    <string name="flight_expired_web">تم تحديثها أجور السفر</string>
+    <string name="hotel_expired_web">تم تحديثها أجور السفر</string>
+    <string name="reset_filter">تصفية إعادة تعيين</string>
+    <string name="refund">(مستردة)</string>
+    <string name="non_refund">(غير قابل للاسترجاع)</string>
+
+    <string-array name="faq_array">
+        <item>ما هي الخدمات التي دفتر شيكات تقدم؟</item>
+        <item>دفتر شيكات هو محرك بحث سفر وتوفير مجموعة متنوعة من الخدمات للعملاء التي تشمل شراء تذاكر الجو، مما يجعل حجز الفنادق والمنتجعات، وتوفير برامج سياحية وتوفير المعرفة عن وجهات معينة.</item>
+        <item>كيف بامكاني البحث في الطيران / الفندق؟</item>
+        <item>إدخال تفاصيل بحثك في مربع البحث الطيران / فندق، وتحديدا مطار المغادرة، مطار المقصد، تاريخ المغادرة، تاريخ عودة، وعدد من الركاب وللفندق الموقع والجنسية. انقر على زر "بحث".
+	        \n\nالمجاميع تطبيق ويظهر العديد من النتائج المتعلقة الطيران / فندق، بمراجعة هذه واستخدام القائمة مرشح للعثور على أفضل الرحلة أنسب / فندق بالنسبة لك. انقر على "إظهار" زر.</item>
+        <item>ما هي المستندات التي أحتاجها للقيام للتحقق في لرحلتي؟ هل يجب أن يحمل بطاقة الائتمان التي تم استخدامها لجعل الدفع؟</item>
+        <item>وهي ملزمة لحمل صادر عن جهة حكومية هوية تحمل صورة شخصية (هوية) إثبات جنبا إلى جنب مع نسخة التذكرة الإلكترونية. يتم التحقق من نفسه من قبل أمن المطار، فضلا عن شركات الطيران في الاختيار في العداد. على تقديم نسختك هوية تحمل صورة واقية وe-التذاكر، ستصدر بطاقة الصعود إلى الطائرة. بالنسبة للرحلات الدولية، وجواز السفر الخاص بك هو ساري المفعول يثبت هوية تحمل صورة الوحيد الذي يمكن قبوله.
+	        \n\nفي حالة السفر الرضع، وهي ملزمة لحمل شهادة الميلاد للطفل جنبا إلى جنب مع التذكرة.
+	        \n\nانها ليست إلزامية لحمل بطاقة الائتمان / الخصم الذي تم استخدامه لتسديد المبلغ في وقت الحجز، إذا كنت قد حجزت من خلال ميك ماي تريب. (ونحن لا تمر على تفاصيل حسابك لشركة الطيران).</item>
+        <item>كيف يمكنني إلغاء بلدي تذاكر الطيران؟</item>
+        <item>إذا كان لديك حساب ثم اتبع الإجراء أدناه لإلغاء التذكرة:
+	        \n- انقر على خيار حجزي
+	        \n- حدد تفاصيل الرحلة وانقر على زر إلغاء حجوزات تحت قسم الطيران.
+	        \n\nيمكنك تسجيل حتى في مع الرقم المرجعي للe-تذكرة لإلغاء التذاكر.
+	        \n\nإذا كنت بحاجة إلى تغيير أو إلغاء ترتيبات الرحلة يمكنك الاتصال لدعم العملاء 24/7 دعم العملاء المخلصين.</item>
+        <item>ماذا علي أن أفعل للحصول على استلام ورقة لبلدي مسار التذاكر الإلكترونية؟</item>
+        <item>وبما انك لن تحصل على استلام ورقة، حرف مسار، أو تأكيد تلقائيا عند شراء التذاكر الإلكترونية، نقترح عليك الاحتفاظ بنسخة من تأكيد البريد الإلكتروني الخاص بك أو طباعة نسخة من مسار الخاص بك عن السجلات الخاصة بك. سوف تحتاج أيضا أنه، جنبا إلى جنب مع جواز سفر ساري المفعول أو غيرها من إثبات شخصية به صورة وصادر عن جهة حكومية، عند التدقيق في المطار.
+	        \n\nوسوف يطلب منك أن تحقق في شباك التذاكر الطيران للحصول على بطاقة الصعود إلى الطائرة. طباعة نسخة من كل من مسار الخاص بك والتذاكر الإلكترونية تأكيد البريد الإلكتروني الخاص بك لتقديم في شباك التذاكر للحصول على بطاقة الصعود إلى الطائرة.</item>
+        <item>كيف تصبح عضوا مسجلا في دفتر شيكات؟</item>
+        <item>تصبح عضوا مسجلا تحقق من الكتاب وسهلة وخالية من التكلفة. للتسجيل، انقر على أيقونة في تسجيل الدخول في الموقع.</item>
+        <item>هو رقم بطاقة الائتمان آمنة؟</item>
+        <item>المعاملات مع العملاء الاستفادة الكاملة من تقنية تشفير طبقة المقابس الآمنة. آمنة التكنولوجيا طبقة المقابس متوفرة في معظم متصفحات الويب شعبية، مثل مايكروسوفت إنترنت إكسبلورر، وتوفر مستوى عال من الأمن من خلال اتصال طبقة المقابس الآمنة.
+	        \n\nفي اتصال طبقة المقابس الآمنة، كل جانب من الصفقة لديه شهادة الأمن، الذي يرسل المتصفح الخاص بك لوالعكس بالعكس. متصفحك يقوم بتشفير رقم بطاقة الائتمان الخاصة بك باستخدام معلومات من كلا من الشهادة الخاصة والشهادة. هذا الإجراء يضمن أن يمكن إزالة سرداب البيانات فقط، تأكد من أن البيانات جاءت من المتصفح والتي لم يتم العبث الرسالة مع العابرة. هذه "الثلاثية" الأمن هو كيف تأخذ المعاملات الأكثر أمانا مكان عبر الإنترنت.
+	        \n\nفي، ونحن نأخذ الأمن والخصوصية على محمل الجد. إذا لم يكن لديك مستعرض يعتمد المعاملات الآمنة، أو كنت غير مريح الشراء عبر الإنترنت، اتصل بنا على +965 1234567 في المرة الأولى التي إجراء عملية شراء. سيبقي ثم بطاقة الائتمان الخاصة بك على ملف لمشتريات السفر في المستقبل.</item>
+        <item>كيف أعرف بلدي حجز الفنادق تأكيد؟</item>
+        <item>سوف نرسل لك رسالة تأكيد بالبريد الإلكتروني بعد الانتهاء الحجز. يجب أن تتلقى رسالة تأكيد بالبريد الإلكتروني عادة في غضون 15 دقيقة، على الرغم من أنه قد يستغرق فترة تصل إلى عدة ساعات لحين وصولها.
+	        \n\nيمكنك التحقق لديك تحفظات على الانترنت من خلال مسارات (مرتبط في أعلى كل صفحة)، وأرسل نسخة إلى نفسك من خلال النقر على \ "البريد الالكتروني مسار \". يجب عليك التحقق من مجلد البريد المزعج أو غير المرغوب فيه في البريد الإلكتروني الخاص بك للتأكد من عدم حظر رسالة تأكيد الحجز.</item>
+        <item>فندق المغادرة</item>
+        <item>كل فندق له وقت السحب الخاصة، والتي سوف المدرجة في سياسة إلغاء الفندق دفتر شيكات.</item>
+        <item>فحص في وقت لاحق من اليوم</item>
+        <item>إذا كنت تريد أن تحقق من الفندق في وقت لاحق من نفس اليوم من الساعة إنهاء إجراءات المغادرة سرد الفندق، الاتصال بالفندق مسبقا لجعل الطلب الخاص بك، أو يمكنك أن تطلب من موظفي مكتب الجبهة في الاختيار. يرجى أن نتذكر أن العديد من الفنادق المسؤول عن تأخر إنهاء إجراءات المغادرة. لراحتك، الفندق قد تكون قادرة على تخزين الأمتعة الخاصة بك بعد إنهاء إجراءات المغادرة.</item>
+        <item>التحقق من وقت مبكر من جانب واحد ليال أو أكثر</item>
+        <item>إذا كنت تحتاج إلى التحقق في وقت سابق مما كنت أصلا حجز، والتحدث مع مكتب استقبال بالفندق مباشرة للتأكد من أنها سنرد لكم الليل غير المستخدمة. لأنه من الصعب للفنادق لإعادة بيعها غرفة في وقت قصير، والعديد من الفنادق لا برد الليالي غير المستخدمة. لا ينطبق التغيير وإلغاء السياسات، والفندق قد تهمة لكم رسوم لتغيير أو إلغاء جزء من الحجز. فنادق الدفع والآن، بعد أن الفندق قد أكدت أنها سوف برد الليالي غير المستخدمة، يرجى الاتصال بنا للتقليل من طول مدة إقامتك بالفندق والعمل مع الفندق لاستكمال المبلغ الخاص بك.</item>
+        <item>ما هي طريقة مختلفة من المدفوعات التي تقبل؟</item>
+        <item>نحن نقبل فيزا، ماستر كارد وكي نت لحجوزات أون لاين.</item>
+        <item>من اتصل به لاسترداد الأمتعة المفقودة؟</item>
+        <item>أفضل مسار للعمل الخاص فيما يتعلق الأمتعة المفقودة هو الاتصال طيران مباشرة.
+	        \nلديك المعلومات التالية متوفرة:
+	        \n- عدد التذاكر مطالبة الأمتعة (ق)\n- معلومات الرحلة
+	        \n- أبعاد قطعة (هو) فقدت\n- اللون\n- مادة (لينة أو صلبة من جانب و)
+	        \n- العلامة التجارية إذا كانت متوفرة.</item>
+    </string-array>
+
+    <string name="about_content">حجوزات دوت كوم موقع سياحي متخصص يهدف لخدمة احتياجات المسافر بكل سهولة وأمان ومصداقية ، وتسخير كافة الوسائل والإمكانيات للحصول على كافة الخدمات المتعلقة بالسفر من مكان واحد وفي زمن قصير وبأسعار منافسة .
+		\n\nيقوم موقع حجوزات دوت كوم بالبحث لك عن أفضل العروض و أسعار الطيران ،الفنادق ،إيجار السيارات ، الأحداث الرياضية والرحلات البحرية .
+		\n\nحجوزات دوت كوم هو وسيطك للحصول على أفضل العروض بأبسط وأضمن طرق البحث حيث أن شعارنا وغايتنا هي رضا عملاؤنا ونبذل كل السبل من أجل تحقيق المعادلة الصعبة وهي أفضل سعر مقابل أفضل الخدمات المقدمة .
+		\n\nكل ماعليك فعله هو البحث عن الوجهة المقصودة ، تحديد تاريخ الذهاب ، العودة ، فترة الأقامة ، عدد الغرف الطلوبة والمقيمين فيها ، وتحديد الرحلات الجوية ، الأحداث الرياضية ، والرحلات البحرية لتحصل على أفضل النتائج والأسعار.
+		\n\nنأمل أن تحوز خدماتنا رضاكم وأن تكون مفيدة لكم في التخطيط لرحلاتكم القادمة وقضاء أفضل أوقات العطلات .
+		\n\nإذا أعجبتكم خدماتنا لا تترددوا في جعل حجوزات دوت كوم وسيطك المفضل .
+		\n\nملاحظة : لاتتردد في طلب الخدمة أو المساعدة !</string>
+    <string name="our_office">مكتبنا</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">التسجيل</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="faq">أسئلة مكررة</string>
+    <string name="how_to_use">كيفية الاستخدام</string>
+    <string name="our_hotline">على الخط الساخن</string>
+    <string name="our_email">راسلنا عبر الايميل</string>
+
+    <string-array name="sort_items_hotel">
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>من الأقل إلى الأعلى</item>
+        <item>الأعلى الى الأقل</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_hotel_heading">
+        <item>السعر</item>
+        <item>التقييم</item>
+        <item>اسم الفندق</item>
+    </string-array>
+
+    <string name="total_price_tax">شاملة الضرائب</string>
+    <string name="flight_details">تفاصيل الرحلة</string>
+    <string name="book">حجز</string>
+    <string name="baggage_info">معلومات الامتعة</string>
+    <string name="baggage">الأمتعة : </string>
+    <string name="baggage_travel_fusion">يمكنك اختيار الأمتعة قبل الدفع</string>
+    <string name="plane_change">مدة التوقف :</string>
+    <string name="map_view">خريطة</string>
+    <string name="view_details">التفاصيل</string>
+    <string name="booking_class">الدرجة</string>
+    <string name="meals">وجبات الطعام</string>
+    <string name="total_duration">إجمالي المدة : </string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">اليوم السابق</string>
+    <string name="days_back">أيام العودة</string>
+    <string name="people_watch">شخص (ق ) مشاهدة</string>
+    <string name="breakfast_included">يتضمن الإفطار</string>
+    <string name="onward">بعيدا</string>
+    <string name="fare_summary">تفاصيل الأسعار</string>
+    <string name="total_price">السعر الإجمالي</string>
+    <string name="inclusive_tax_fees">(شامل الضريبة)</string>
+    <string name="proceed">متابعة</string>
+    <string name="continu">استمرار</string>
+    <string name="ticket">تذكرة</string>
+    <string name="rules_restrictions"><u>القواعد والقيود</u></string>
+    <string name="hotel_details">تفاصيل الفندق</string>
+    <string name="cancellation_policy">سياسة الإلغاء</string>
+    <string name="price_per_night">السعر  لليلة الواحدة</string>
+    <string name="total_price_night">السعر الأجمالي للمدة كاملة %d الليالي</string>
+    <string name="buy">يشترى</string>
+    <string name="change">تغيير</string>
+    <string name="hotel_desc">تفاصيل الفندق:</string>
+    <string name="hotel_facility">مرافق غرفة فندق:</string>
+    <string name="tariff_notes">Tariff Notes</string>
+    <string name="choose_first_room">اختر خاصتك الأول غرفة </string>
+    <string name="choose_second_room">اختر خاصتك ثانيا غرفة </string>
+    <string name="choose_third_room">اختر خاصتك الثالث غرفة </string>
+    <string name="choose_fourth_room">اختر خاصتك رابع غرفة </string>
+    <string name="choose_fifth_room">اختر خاصتك الخامس غرفة </string>
+    <string name="travellinfo">معلومات المسافر</string>
+    <string name="donot_have_acc">إذا لم يكن لديك حساب</string>
+    <string name="ref_no">الرقم المرجعي</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="Or">أو</string>
+    <string name="view_booking">عرض الحجز</string>
+    <string name="acc_setiing">إعدادات الحساب</string>
+    <string name="password">كلمة السر</string>
+    <string name="confirmpassword">تأكيد كلمة المرور</string>
+    <string name="submit">عرض</string>
+    <string name="contact_details">تفاصيل الاتصال</string>
+    <string name="pls_login">الرجاء تسجيل الدخول</string>
+    <string name="enter_email_addr">أدخل بريدك الإلكتروني</string>
+    <string name="forgot_pass_q">نسيت كلمة المرور ?</string>
+    <string name="have_acc">إذا كان لديك حساب</string>
+    <string name="signup_here">اشترك هنا</string>
+    <string name="signin_here">تسجيل الدخول هنا</string>
+    <string name="forgot_pass">نسيت كلمة المرور</string>
+    <string name="if_u_knw_pass">إذا كنت تعرف كلمة المرور الخاصة بك!</string>
+    <string name="my_bookings">حجوزات بلدي</string>
+    <string name="my_profile">ملفي الشخصي</string>
+    <string name="firstname">اسم الاول</string>
+    <string name="lastname">الاسم الأخير</string>
+    <string name="phneno">رقم الهاتف النقال</string>
+    <string name="success_msg_login">تم الدخول بنجاح</string>
+    <string name="success_msg_register">سجلت بنجاح</string>
+    <string name="error_msg_email_alrdy_reg">البريد الإلكتروني مسجل مسبقا</string>
+    <string name="error_invalid_email">مطلوب البريد الإلكتروني</string>
+    <string name="error_invalid_pass">أدخل كلمة المرور الخاصة بك</string>
+    <string name="error_first_name_req">مطلوب الإسم الأول</string>
+    <string name="error_last_name_req">مطلوب الاسم الأخير</string>
+    <string name="error_phn_no_req">مطلوب رقم الهاتف</string>
+    <string name="error_dob_req">تاريخ الميلاد مطلوبة</string>
+    <string name="error_confirm_pass_req">الرجاء إدخال تأكيد كلمة السر</string>
+    <string name="error_pass_mismatch">كلمة المرور غير متطابقة</string>
+    <string name="error_firstname_length">يجب أن يحتوي الاسم الأول على حرفين على الأقل وأن لا يحتوي على أية أحرف خاصة أو فراغات</string>
+    <string name="error_lastname_length">يجب أن يحتوي الاسم الأخيرعلى حرفين على الأقل وبحد أقصى 21 حرفا . ينبغي أن لا يحتوي أي مسافات أو أحرف خاصة</string>
+    <string name="error_invalid_number">إدخال رقم الجوال غير صحيح</string>
+    <string name="cancel_ticket">إلغاء التذاكر</string>
+    <string name="view_ticket">عرض تذكرة</string>
+    <string name="upcoming_flight">رحلات الطيران القادمة </string>
+    <string name="complete_flight">اكتمال رحلات طيران</string>
+    <string name="upcoming_hotel">حجوزات فندق القادمة</string>
+    <string name="complete_hotel">اكتمال حجوزات الفنادق</string>
+    <string name="my_flight_booking">حجوزات الطيران بلدي</string>
+    <string name="nights">ليالي</string>
+    <string name="person">الأشخاص</string>
+    <string name="child_ren">طفل</string>
+    <string name="reference_id">الرقم المرجعي</string>
+    <string name="date_of_travel">تاريخ السفر</string>
+    <string name="view">رأي</string>
+    <string name="no_booking"> لا الحجوزات</string>
+    <string name="make_payment"> قم بالدفع</string>
+    <string name="choose_pay_method"> اختر وسيلة الدفع</string>
+    <string name="cabin_or_class">درجة / المقصورة</string>
+    <string name="airline_price">الطيران السعر</string>
+    <string name="baggage_fees">رسوم الأمتعة</string>
+    <string name="transaction_fees"> رسوم المعاملات</string>
+    <string name="terms_and_conditions">من خلال استكمال هذا الحجز أوافق على أنني قرأت وقمت بالموافقة على القواعد والقيود.</string>
+    <string name="pay_now"> أدفع الآن</string>
+    <string name="checkin">الدخول : </string>
+    <string name="checkout">الخروج : </string>
+    <string name="hotel_price">فندق الأسعار</string>
+    <string name="cont_with_pay">اكمال الحجز والدفع</string>
+    <string name="paxnotes"> ملاحظة: لديك "رقم تأكيد" سيتم إرسالها إلى عنوان البريد الإلكتروني الذي أدخلته أعلاه.</string>
+    
+    <string name="back">ظهر</string>
+    <string name="type_eng">يرجى كتابة في اللغة الإنجليزية</string>
+    <string name="checkinn">الدخول</string>
+    <string name="checkoutt">الخروج</string>
+    <string name="pax">راكب</string>
+    <string name="night">الليالي</string>
+    <string name="passengers">الركاب</string>
+    <string name="no_of_rooms">عدد غرف</string>
+    <string name="hotel_summary">ملخص فندق</string>
+    <string name="err_fl_name_length">الأسم الأول + الاسم الأخيرلا يمكن أن يتجاوز مسافة 23 حرفا بدون مسافة أو أحرف خاصة</string>
+    <string name="err_empty_passport">مطلوب رقم الجواز</string>
+    <string name="err_same_passport">رقم جواز السفر يجب أن يكون مختلف</string>
+    <string name="err_same_fl_name">يجب أن تكون الأسماء غير متماثلة</string>
+    <string name="err_title_req">مطلوب النوع</string>
+
+    <string-array name="title_spinner_items">
+        <item>اللقب</item>
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+    <!-- My Profile -->
+    <string name="change_your_detils">تغيير كلمة المرور الخاصة بك هنا</string>
+    <string name="update">تحديث</string>
+    <string name="email_id">عنوان البريد الالكتروني</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="checked_baggage">إيداعه الأمتعة</string>
+    <string name="checked_baggage_option_1">حدد إيداع الأمتعة</string>
+
+    <string-array name="my_profile_Title">
+        <item>اللقب</item>
+        <item>السيد</item>
+        <item>يغيب</item>
+        <item>السيدة</item>
+    </string-array>
+
+    <string name="status">الحالة</string>
+    <string name="waiting_refund">الانتظار للاسترداد</string>
+    <string name="waiting_cancellation">في انتظار إلغاء</string>
+    <string name="update_succes_msg_myprofile">الملف الشخصي الخاص بك التحديث بنجاح</string>
+    <string name="update_success_msg_password_myprofile">كلمة تحديث بنجاح</string>
+
+    <string name="hotel_fare_update">سعر محدثة للالفندق %s هل تريد الاستمرار</string>
+    
+</resources>

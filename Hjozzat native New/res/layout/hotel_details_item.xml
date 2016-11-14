@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_layout_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_room_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:text="Small Text Small Text Small Text"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:id="@+id/ll_passenger_icons"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:padding="8dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_cancellation_policy"
+                style="@style/Base.TextAppearance.AppCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:background="@drawable/normal_selector"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/cancellation_policy"
+                android:textAllCaps="false"
+                android:textColor="#0072bc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".45"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_room_price_per_night"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_vertical|right"
+                android:text="INR 16000.000"
+                android:textColor="@color/std_color"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_buy"
+                style="@style/Base.TextAppearance.AppCompat"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/buttonfocus"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/book"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

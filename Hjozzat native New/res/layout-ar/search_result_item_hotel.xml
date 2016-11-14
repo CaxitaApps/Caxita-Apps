@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".65"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp" >
+
+        <TextView
+            android:id="@+id/tv_hotel_cost"
+            style="@style/Base.TextAppearance.AppCompat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="INR 11221.538"
+            android:textColor="@color/std_color"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/total_price_tax"
+            android:textColor="#2E7D32" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_hotel_name"
+            style="@style/Base.TextAppearance.AppCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Hotel name"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+        <RatingBar
+            android:id="@+id/rb_hotel_ratng"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:numStars="5"
+            android:rotation="180"
+            android:stepSize="1" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="right"
+            android:text="@string/location"
+            android:textColor="@color/std_color" />
+
+        <TextView
+            android:id="@+id/tv_place"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Place"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/ll_breakfast_included"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/breakfast_included"
+                android:textColor="#757575" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_weight=".45"
+        android:orientation="vertical" >
+
+        <com.hjozzat.support.CustomImageView
+            android:id="@+id/iv_hotel_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_no_image" />
+    </LinearLayout>
+
+</LinearLayout>

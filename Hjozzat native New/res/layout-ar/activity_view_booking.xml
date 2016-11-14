@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:minHeight="50dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="clicker"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/tv_Flight_Hd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_bookings"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0072BC"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:id="@+id/ll_flight_details_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_bag_curved_border"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/tv_focus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="sans-serif-condensed"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/my_flight_booking"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#0072bc" />
+
+                <LinearLayout
+                    android:id="@+id/departure_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="end|center_vertical" >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_margin="5dp"
+                        android:rotationY="180"
+                        android:src="@drawable/ic_departure" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/depart"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0072bc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_flight1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/departure_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="center_vertical|right"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/iv_flight_type"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_margin="5dp"
+                        android:rotationY="180"
+                        android:src="@drawable/ic_departure" />
+
+                    <TextView
+                        android:id="@+id/tv_flight_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/depart"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0072bc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_flight2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/departure_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="center_vertical|right"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_margin="5dp"
+                        android:rotationY="180"
+                        android:src="@drawable/ic_departure" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/depart"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0072bc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_flight3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/departure_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="center_vertical|right"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_margin="5dp"
+                        android:rotationY="180"
+                        android:src="@drawable/ic_departure" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/depart"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0072bc" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_flight4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="right"
+                    android:padding="8dp" >
+
+                    <TextView
+                        android:id="@+id/tv_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Jet Airways India"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/status"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#E0E0E0"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btn_cancel_ticket"
+                        style="@style/Base.TextAppearance.AppCompat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/buttonfocus"
+                        android:fontFamily="sans-serif-condensed"
+                        android:onClick="clicker"
+                        android:padding="5dp"
+                        android:text="@string/cancel_ticket"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/btn_view_ticket"
+                        style="@style/Base.TextAppearance.AppCompat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/buttonfocus"
+                        android:fontFamily="sans-serif-condensed"
+                        android:onClick="clicker"
+                        android:padding="5dp"
+                        android:text="@string/view_ticket"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </LinearLayout>
+<LinearLayout
+                android:id="@+id/ll_hotel_details_lv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/white_bag_curved_border"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:padding="1dp"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/iv_hotel_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/white_bag_curved_border"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@null" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tv_hotel_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="right"
+                        android:text="Status"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_hotel_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="right"
+                        android:text="Jet Airways India"
+                        android:textColor="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|right" >
+
+                        <TextView
+                            android:id="@+id/tv_check_out_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="Aug 26, 2016"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_check_in_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="Aug 22, 2016"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|right" >
+
+                        <TextView
+                            android:id="@+id/tv_night_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="2"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/nights"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="إلى"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/room"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_room_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="2"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/person"
+                        android:textColor="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|right" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/child_ren"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_child_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="2"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/adult"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:id="@+id/tv_adult_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="2"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5dp"
+                        android:background="@android:color/white"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical|right"
+                        android:text="Price"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#0072bc" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#E0E0E0"
+                        android:gravity="right"
+                        android:padding="8dp" >
+
+                        <TextView
+                            android:id="@+id/tv_status_hotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:text="Jet Airways India"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:text="@string/status"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:background="#E0E0E0"
+                        android:gravity="right"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btn_cancel_ticket_hotel"
+                            style="@style/Base.TextAppearance.AppCompat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/buttonfocus"
+                            android:fontFamily="sans-serif-condensed"
+                            android:onClick="clicker"
+                            android:padding="5dp"
+                            android:text="@string/cancel_ticket"
+                            android:textColor="@android:color/white"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/btn_view_ticket_hotel"
+                            style="@style/Base.TextAppearance.AppCompat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:background="@drawable/buttonfocus"
+                            android:fontFamily="sans-serif-condensed"
+                            android:onClick="clicker"
+                            android:padding="5dp"
+                            android:text="@string/view_ticket"
+                            android:textColor="@android:color/white"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

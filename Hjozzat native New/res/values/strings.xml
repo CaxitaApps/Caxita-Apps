@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="english">ENGLISH</string>
+    <string name="arab">ic_ar</string>
+    <string name="flight">FLIGHT</string>
+    <string name="hotel">HOTEL</string>
+    <string name="visa">VISA</string>
+    <string name="mybooking">MY BOOKING</string>
+    <string name="lang">العربية</string>
+	<string name="call_to_book">Call To Book</string>
+    <string name="oneway">One way</string>
+    <string name="round">Round Trip</string>
+    <string name="multi">Multiple</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="leaving">Leaving From</string>
+    <string name="going">Going To</string>
+    <string name="depart">Departure</string>
+    <string name="dept">Depart</string>
+    <string name="retur">Return</string>
+    <string name="arrival">Arrival</string>
+    <string name="outbound">Out Bound</string>
+    <string name="adult">Adult</string>
+    <string name="adults">Adult(s)</string>
+    <string name="children">Child</string>
+    <string name="infant">Infant</string>
+    <string name="search">SEARCH</string>
+    <string name="searchfor">Search for a city or airport</string>
+    <string name="cityname">Enter a city name</string>
+    <string name="city">City</string>
+    <string name="clas">Class</string>
+    <string name="direct">Non Stop</string>
+    <string name="prefered">Preferred Airline</string>
+    <string name="enterprefered">Enter your preferred airline</string>
+    <string name="traveller">Travellers</string>
+    <string name="abo">About Us</string>
+    <string name="serv">Service</string>
+    <string name="mabo">Manage Booking</string>
+    <string name="cont">Contact Us</string>
+    <string name="or">or</string>
+    <string name="app_name">Hjozzat.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="economy">Economy</string>
+    <string name="business">Business</string>
+    <string name="first_class">First - Class</string>
+    
+    <!-- Flight Class Spinner Items -->
+    <string-array name="class_spinner_items">
+        <item>Economy</item>
+        <item>Premium Economy</item>
+        <item>Business Class</item>
+        <item>First Class</item>
+    </string-array>
+
+    <!-- Hotel Room Nos -->
+    <string-array name="room_spinner_items">
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+        <item>Room 5</item>
+    </string-array>
+
+    <string name="no_match">No entries matching your parameter</string>
+    <string name="error_title">Error</string>
+    <string name="error_msg_empty_dep_arr">Departure or Arrival Airport should not be empty.</string>
+    <string name="error_msg_same_dep_arr">Departure and Arrival Airport should not be same.</string>
+    <string name="error_msg_same_dep_arr_multi_1">Departure and Arrival Airport should not be same.(Trip 1)</string>
+    <string name="error_msg_same_dep_arr_multi_2">Departure and Arrival Airport should not be same.(Trip 2)</string>
+    <string name="error_msg_same_dep_arr_multi_3">Departure and Arrival Airport should not be same.(Trip 3)</string>
+    <string name="error_msg_same_dep_arr_multi_4">Departure and Arrival Airport should not be same.(Trip 4)</string>
+    <string name="error_search_lmt">We can only search for a maximum of 9 passengers</string>
+    <string name="error_infant_cnt">Please note that no. of infants cannot exceed no. of adults.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_no_internet_title">Internet Access Not Available</string>
+    <string name="error_no_internet_msg">This application requires working internet access. Please connect to the internet and try again.</string>
+    <string name="error_no_internet_settings">Settings</string>
+    <string name="error_no_internet_cancel">Cancel</string>
+    <string name="error_no_internet_close_app">Close Application</string>
+    <string name="default_city_to">Dubai</string>
+    <string name="default_city_from">Kuwait</string>
+    <string name="exit_msg">Click again to exit</string>
+    <string name="passenger_no">Passenger(s)</string>
+    <string name="add_trip">Add Trip +</string>
+    <string name="remove_trip">Remove Trip -</string>
+    <string name="nationality">Nationality</string>
+    <string name="rooms">Room(s)</string>
+    <string name="room">Room</string>
+    <string name="cityorhotel">Hotel Location</string>
+    <string name="type_city">Type City</string>
+    <string name="adult1">Adult (12+)</string>
+    <string name="child1">Child (2-11)</string>
+    <string name="infant1">Infant (&lt;2)</string>
+    <string name="add_room">ADD ROOM +</string>
+    <string name="remove_room">REMOVE -</string>
+    <string name="adult_nos">No. of adults</string>
+    <string name="child_nos">No. of Child(ren)</string>
+    <string name="guests">Guests</string>
+    <string name="child1_age">Child Age 1</string>
+    <string name="child2_age">Child Age 2</string>
+    <string name="child3_age">Child Age 3</string>
+    <string name="child4_age">Age of Child 4</string>
+    <string name="search_city_hotel">Search for a Hotel</string>
+    <string name="search_nation">Search for your Nationality</string>
+    <string name="non_stop">NON STOP</string>
+    <string name="err_msg_select_city">Please select a City</string>
+    <string name="err_msg_select_nation">Please select your Nationality</string>
+    <string name="depart_date">Depart Date</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="depart_time">Depart Time</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="return_date">Return Date</string>
+    <string name="checkin_date">Check-In Date</string>
+    <string name="checkout_date">Check-Out Date</string>
+    <string name="err_child_grt_adult">Number of children less than two years cannot exceed adults</string>
+    <string name="about_content">HJOZZAT.COM  specialist tourist site aims to serve the needs of the traveler easily and safely and credibility, and harness all the means and possibilities for all travel related services from a single place and in a short time and at competitive prices.
+		\n\nHJOZZAT.COM  search for the best offers and prices of airline, hotel, car rental, sports events and cruises.
+ 		\n\nHJOZZAT.COM  is your booking engine to get the best offers at the simplest and surest ways of searching where our brand  and our goal is customer satisfaction and will try all means to achieve the difficult equation which is the best price for better services.
+ 		\n\nAll you have to do is search for a destination, set a date, length of stay, number of rooms and residents, and to identify flights, sporting events, and cruises to get the best results and prices.
+ 		\n\nWe hope that our services satisfy and be useful to you in the planning of your next flights and spend the best time of the holidays.
+ 		\n\nIf you liked our services, please do not hesitate to make the HJOZZAT.COM  your favorite booking website.
+ 		\n\nNote: Do not hesitate to ask for service or assistance!</string>
+    <string name="our_office">OUR OFFICE</string>
+    <string name="contact_content">www.Hjozzat.com\nOffice 13, 14 1st Floor,\nFarwaneya,\nKuwait</string>
+    <string name="contact_email">info@hjozzat.com</string>
+    <string name="contact_number">+96524731194</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="how_to_use">How to use</string>
+    <string name="our_hotline">Our Hotline</string>
+    <string name="our_email">Our Email</string>
+    <string name="modify">Modify Search</string>
+    <string name="hotels">Hotels</string>
+    <string name="name">Search by hotel name</string>
+    <string name="years12">12+ Years</string>
+    <string name="non_stop">Non stop</string>
+    <string name="one_stop">stop</string>
+    <string name="more_stop">stops</string>
+    <string name="sort">Sort</string>
+    <string name="sortby">Sort by</string>
+
+    <string-array name="sort_items_flight">
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>LOW-TO-HIGH</item>
+        <item>HIGH-TO-LOW</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </string-array>
+    <string-array name="sort_item_flight_heading">
+        <item>Price</item>
+        <item>Departure</item>
+        <item>Arrival</item>
+        <item>Duration</item>
+        <item>Airline</item>
+    </string-array>
+
+    <string name="refine_search">Refine Search</string>
+    <string name="amam">(00.00-05.59)</string>
+    <string name="ampm">(06.00-11.59)</string>
+    <string name="pmpm">(12.00-05.59)</string>
+    <string name="pmam">(06.00-11.59)</string>
+    <string name="early_morning">Early Morning</string>
+    <string name="morning">Morning</string>
+    <string name="afternoon">Afternoon</string>
+    <string name="evning">Evening</string>
+    <string name="time">Time</string>
+    <string name="price">Price</string>
+    <string name="duration">Duration</string>
+    <string name="airline">Airline</string>
+    <string name="layover">Layover Duration</string>
+    <string name="layover_airports">Layover Airports</string>
+    <string name="stops">Stops</string>
+    <string name="one_stp">1 Stop Flights</string>
+    <string name="one_plus_stp">1+ Stop Flights</string>
+    <string name="rating">Star Rating</string>
+    <string name="boardtype">Board types</string>
+    <string name="apply">Apply</string>
+    <string name="filter">Filter</string>
+    <string name="no_result">No results matching your search criteria</string>
+    <string name="lowest_first">Lowest first</string>
+    <string name="shortest_first">Shortest first</string>
+    <string name="highest_first">Highest first</string>
+    <string name="longest_first">Longest first</string>
+    <string name="searching_hotel">Please wait while we search best fares for you</string>
+    <string name="searching_flight">Please wait while we search best fares for you</string>
+    <string name="checking_hotel">Reconfirming fare...</string>
+    <string name="checking_flight">Reconfirming fare...</string>
+    <string name="loading">Loading...</string>
+    <string name="flight_expired">Fares have been updated, updating new fares</string>
+    <string name="hotel_expired">Fares have been updated, updating new fares</string>
+    <string name="flight_expired_web">Fares have been updated</string>
+    <string name="hotel_expired_web">Fares have been updated</string>
+    <string name="reset_filter">Reset</string>
+    <string name="refund">(Refundable)</string>
+    <string name="non_refund">(Non-Refundable)</string>
+
+    <string-array name="faq_array">
+        <item>What are the services that checknbook provide?</item>
+        <item>Checknbook is a travel search engine and provide a variety of services to customers that includes purchasing air tickets,making hotel and resort reservations,providing tour packages and providing knowledge about specific destinations.</item>
+        <item>How do I search a flight/hotel?</item>
+        <item>Enter your search details in the Flight/Hotel search box, specifically departure airport, destination airport, departure date, return date,number of passengers and for Hotel Location and nationality. Click the "Search" button.
+	        \n\nApplication aggregates and shows many results regarding Flight/Hotel, review these and use the filter menu to better find the most appropriate flight/Hotel for you. Click the "Show" button.</item>
+        <item>What documents do I need to carry to check-in for my flight? Do I have to carry the credit card that was used for making the payment?</item>
+        <item>It is mandatory to carry a government issued photo identification (ID) proof along with the E-Ticket copy. The same is verified by the airport security as well as the airline at the check in counter. On presenting your photo ID proof and E-Ticket copy, your boarding pass will be issued. For international flights, your passport is the only valid photo ID proof that will be accepted.
+	        \n\nIn case of an infant travelling, it is mandatory to carry the birth certificate of the infant along with the ticket.
+	        \n\nIt is not mandatory to carry the credit/debit card that was used to make the payment at the time of the booking, if you have booked through MakeMyTrip. (we do not pass on your account details to the airline).</item>
+        <item>How can i cancel my flight tickets?</item>
+        <item>If you have a Account then follow the below procedure to cancel the ticket:
+	        \n- Click on My Booking option
+	        \n- Select your flight details and Click on Cancel Bookings button under the Flights section.
+	        \n\nYou can even login with  the Reference Number of E-Ticket to cancle the ticket.
+	        \n\nIf you need to change or cancel your flight arrangements you can contact to Customer Suport  24/7 dedicated Customer support.</item>
+        <item>What should I do to obtain a paper receipt for my e-ticket itinerary?</item>
+        <item>Since you will not receive a paper receipt, itinerary, or confirmation letter automatically when you purchase an e-ticket, we suggest you keep a copy of your confirmation e-mail or print a copy of your itinerary for your records. You will also need it, along with your valid passport or other government-issued photo identification, when you check in at the airport.
+	        \n\nYou will be required to check in at the airline ticket counter to receive your boarding pass. Print a copy of both your itinerary and your e-ticket confirmation e-mail to present at the ticket counter to obtain your boarding pass</item>
+        <item>How to become a registered member of ChecknBook?</item>
+        <item>Becoming a registered member of ChecknBook is easy and free of cost. To register, click on the SignIn icon in website.</item>
+        <item>Is my credit card number safe?</item>
+        <item>Customer transactions with take full advantage of Secure Sockets Layer (SSL) encryption technology. SSL technology is available on most popular Web browsers, such as Microsoft Internet Explorer, and provides a high level of security through an SSL connection.
+	        \n\nIn an SSL connection, each side of the transaction has a security certificate, which your browser sends to and vice versa. Your browser then encrypts your credit card number using information from both its own certificate and the certificate. This action ensures that only can de-crypt the data, confirm that the data came from your browser and that the message has not been tampered with in transit. This "three-way" security is how most secure transactions take place over the Internet.
+	        \n\nAt , we take security and privacy seriously.If you do not have a browser that supports secure transactions, or you are uncomfortable purchasing online, call us at +965 1234567 the first time you make a purchase. will then keep your credit card on file for future travel purchases.</item>
+        <item>How do I know my hotel reservation is confirmed?</item>
+        <item>We will send you an email confirmation after you\'ve completed your booking. You should receive the confirmation email generally within 15 minutes, although it may take up to several hours for it to arrive.
+	        \n\nYou can verify your reservations online through Itineraries (linked at the top of every page), and send yourself a copy by clicking on \"Email itinerary\". You should check the spam or junk mail folder in your email to make sure your confirmation email was not blocked.</item>
+        <item>Hotel check-out</item>
+        <item>Every hotel has a specific check-out time, which will listed on the ChecknBook hotel Cancellation Policy.</item>
+        <item>Checking out later in the day</item>
+        <item>If you want to check out of the hotel later in the day than the hotel\'s listed check-out time, call the hotel beforehand to make your request, or you can ask the front desk staff at check-in. Please remember that many hotels charge for a late check-out. For your convenience, the hotel may be able to store your luggage after check-out.</item>
+        <item>Checking out early by one or more nights</item>
+        <item>If you need to check out earlier than you originally booked, speak with the hotel front desk directly to confirm they will refund your unused night. Because it is difficult for hotels to resell a room on short notice, many hotels will not refund unused nights. Change and cancellation policies do apply, and the hotel may charge you a fee for changing or cancelling part of your reservation. For Pay Now hotels, after the hotel has confirmed they will refund your unused nights, please call us to decrease the length of your hotel stay and work with the hotel to complete your refund.</item>
+        <item>What are the different mode of payments you accept?</item>
+        <item>We accept Visa, Mastercard  and KNet for Online Bookings.</item>
+        <item>Whom do I contact to retrieve lost luggage?</item>
+        <item>Your best course of action regarding lost luggage is to contact the airline directly.
+	        \nHave the following information available:
+	        \n- Luggage claim ticket number(s)\n- Flight information
+	        \n- Dimensions of piece(s) lost\n- Colour\n- Material (soft or hard-sided)
+	        \n- Brand if available.</item>
+    </string-array>
+    <string-array name="sort_items_hotel">
+        <item>Low to High</item>
+        <item>High to Low</item>
+        <item>Low to High</item>
+        <item>High to Low</item>
+        <item>A to Z</item>
+        <item>Z to A</item>
+    </string-array>
+    <string-array name="sort_item_hotel_heading">
+        <item>Price</item>
+        <item>Rating</item>
+        <item>Hotel Name</item>
+    </string-array>
+
+    <string name="total_price_tax">Inclusive of tax</string>
+    <string name="flight_details">Details</string>
+    <string name="plane_change">Transit Time: </string>
+    <string name="map_view">Map</string>
+    <string name="view_details">Details</string>
+    <string name="book">Book Now</string>
+    <string name="baggage_info">Baggage Info</string>
+    <string name="baggage">Baggage : </string>
+    <string name="baggage_travel_fusion">You can choose baggage before payment</string>
+    <string name="booking_class">Booking Class</string>
+    <string name="meals">Meals</string>
+    <string name="total_duration">Total Duration : </string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="days_back">Days back</string>
+    <string name="people_watch">Person(s) watching</string>
+    <string name="location">Location</string>
+    <string name="breakfast_included">Breakfast included</string>
+    <string name="onward">ONWARD</string>
+    <string name="fare_summary">FARE SUMMARY</string>
+    <string name="total_price">Total Price</string>
+    <string name="inclusive_tax_fees">(Incl. of taxes and fees)</string>
+    <string name="proceed">Proceed</string>
+    <string name="continu">Continue</string>
+    <string name="ticket">Ticket</string>
+    <string name="rules_restrictions"><u>Rules and Restrictions</u></string>
+    <string name="hotel_details">Hotel Details</string>
+    <string name="cancellation_policy">Cancellation Policy</string>
+    <string name="price_per_night">Price per night</string>
+    <string name="total_price_night">Total price for %d Nights</string>
+    <string name="buy">Buy</string>
+    <string name="change">Change</string>
+    <string name="hotel_desc">Hotel Description : </string>
+    <string name="hotel_facility">Hotel Room facility : </string>
+    <string name="tariff_notes">Tariff Notes : </string>
+    <string name="hotel_remarks">Hotel Remarks : </string>
+    <string name="choose_first_room">CHOOSE YOUR FIRST ROOM</string>
+    <string name="choose_second_room">CHOOSE YOUR SECOND ROOM</string>
+    <string name="choose_third_room">CHOOSE YOUR THIRD ROOM</string>
+    <string name="choose_fourth_room">CHOOSE YOUR FOURTH ROOM</string>
+    <string name="choose_fifth_room">CHOOSE YOUR FIFTH ROOM</string>
+    <string name="travellinfo">Traveler Information</string>
+    <string name="donot_have_acc">If you do not have an account </string>
+    <string name="ref_no">Reference Number</string>
+    <string name="email">Email</string>
+    <string name="Or">Or</string>
+    <string name="view_booking">View Booking</string>
+    <string name="acc_setiing">Account Settings</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="pls_login">Please Login</string>
+    <string name="enter_email_addr">Enter Your Email Address</string>
+    <string name="forgot_pass_q">Forgot Password ?</string>
+    <string name="have_acc"> If you have an account </string>
+    <string name="signup_here">Sign Up Here</string>
+    <string name="signin_here">Sign In Here</string>
+    <string name="forgot_pass"> Forgot Password</string>
+    <string name="if_u_knw_pass">If you know your password! </string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="my_profile">My Profile</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="phneno">Phone Number</string>
+    <string name="success_msg_login">Login Successful</string>
+    <string name="success_msg_register">User Registered Successfully</string>
+    <string name="error_msg_email_alrdy_reg">This Email Address is already registered</string>
+    <string name="error_invalid_email">Please provide a valid Email</string>
+    <string name="error_invalid_pass">Please provide a Password</string>
+    <string name="error_first_name_req">First Name Required</string>
+    <string name="error_last_name_req">Last Name Required</string>
+    <string name="error_phn_no_req">Phone Number Required</string>
+    <string name="error_dob_req">Date Of Birth Required</string>
+    <string name="error_confirm_pass_req">Please provide Confirm Password</string>
+    <string name="error_pass_mismatch">Password does not match</string>
+    <string name="error_firstname_length">First name should be at least 2 characters up to a maximum of 19 characters, it should not contain any special characters or spaces</string>
+    <string name="error_lastname_length">Last name should be at least 2 characters up to a maximum of 21 characters, it should not contain any special characters or spaces</string>
+    <string name="error_invalid_number">Invalid Phone Number</string>
+    <string name="cancel_ticket">CANCEL TICKET</string>
+    <string name="view_ticket">VIEW TICKET</string>
+    <string name="upcoming_flight">Upcoming Flight Trips</string>
+    <string name="complete_flight">Completed Flight Trips</string>
+    <string name="upcoming_hotel">Upcoming Hotel Bookings</string>
+    <string name="complete_hotel">Completed Hotel Bookings</string>
+    <string name="my_flight_booking">My Flight Bookings</string>
+    <string name="nights">Nights</string>
+    <string name="person">Persons</string>
+    <string name="child_ren">Child(ren)</string>
+    <string name="reference_id">Reference ID</string>
+    <string name="date_of_travel">Date of Travel</string>
+    <string name="view">View</string>
+    <string name="no_booking">No Bookings</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="choose_pay_method">Choose Payment Method</string>
+    <string name="cabin_or_class">Cabin / Class</string>
+    <string name="airline_price">Airline Price</string>
+    <string name="baggage_fees">Baggage Fees</string>
+    <string name="transaction_fees">Transaction Fees</string>
+    <string name="terms_and_conditions">By accepting this booking I agree that I have read and accept</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="checkin">Check in : </string>
+    <string name="checkout">Check out : </string>
+    <string name="hotel_price">Hotel Price</string>
+
+    <!-- pax -->
+    <string name="back">Back</string>
+    <string name="type_eng">Please Type in English</string>
+    <string name="paxnotes">Note: Your Confirmation Number will be sent to your Email Address you provide above.</string>
+    <string name="cont_with_pay">Continue With Payment</string>
+    <string name="cont_without_login"><font color="#0072bc"> Continue without Login</font><font color="black">or</font></string>
+    <string name="hotel_summary">HOTEL SUMMARY</string>
+    <string name="passengers">Passengers</string>
+    <string name="no_of_rooms">No of Rooms</string>
+    <string name="checkinn">Check In</string>
+    <string name="checkoutt">Check Out</string>
+    <string name="pax">Pax</string>
+    <string name="night">Nights</string>
+    <string name="err_fl_name_length">FirstName + LastName cannot exceed length 23 characters without spaces or numbers or special characters</string>
+    <string name="err_empty_passport">Passport Number Required</string>
+    <string name="err_same_passport">Passport number cannot be same</string>
+    <string name="err_same_fl_name">Names Should be unique</string>
+    <string name="err_title_req">Title required</string>
+
+    <string-array name="title_spinner_items">
+        <item>Title</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="change_your_detils">Change your details here</string>
+    <string name="update">UPDATE</string>
+    <string name="email_id">Email ID</string>
+    <string name="new_password">New Password</string>
+    <string name="checked_baggage">Checked-in baggage</string>
+    <string name="checked_baggage_option_1">Select checked-in baggage</string>
+
+    <string-array name="my_profile_Title">
+        <item>Title</item>
+        <item>Mr</item>
+        <item>Miss</item>
+        <item>Mrs</item>
+    </string-array>
+
+    <string name="status">Status</string>
+    <string name="waiting_refund">Waiting For Refund</string>
+    <string name="waiting_cancellation">Waiting For Cancellation</string>
+    <string name="update_succes_msg_myprofile">Your Profile Updated Successfully</string>
+    <string name="update_success_msg_password_myprofile">Password Updated Successfully</string>
+    
+    <string name="hotel_fare_update">The updated price for the hotel is %s, do you want to continue?</string>
+
+    <string name="all">All</string>
+
+    <string name="htl_room">Rooms (Max:5)</string>
+    
+</resources>

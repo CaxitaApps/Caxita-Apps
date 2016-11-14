@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bag_curved_border"
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_passenger_type"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_adult" />
+
+        <TextView
+            android:id="@+id/tv_passenger_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="7dp"
+            android:text="@string/login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0072bc" />
+        
+        <TextView
+            android:id="@+id/tv_passenger_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/login"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#0072bc" />
+        
+    </LinearLayout>
+
+</LinearLayout>

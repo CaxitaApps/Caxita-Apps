@@ -1,0 +1,294 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:minHeight="50dp" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="clicker"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_btn" />
+
+        <TextView
+            android:id="@+id/tv_Flight_Hd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/mabo"
+            android:textAllCaps="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#0072BC"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_bag_curved_border"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0072bc"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="5dp"
+                    android:text="@string/travellinfo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txt_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/donot_have_acc"
+                    android:textColor="#0072bc" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/ref_no"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_refno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_bag_curved_border"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="right"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/email"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_mybookingmailid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_bag_curved_border"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="right"
+                    android:imeOptions="actionDone"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:text="@string/or"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/phneno"
+                    android:textColor="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edt_bookingphoneno"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/white_bag_curved_border"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="right"
+                        android:imeOptions="actionDone"
+                        android:numeric="integer"
+                        android:phoneNumber="true"
+                        android:textColor="@android:color/black" />
+
+                    <Spinner
+                        android:id="@+id/spn_bookingcountrycode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_weight=".5"
+                        android:background="@drawable/white_bag_curved_border"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_view_booking"
+                    style="@style/Base.TextAppearance.AppCompat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:onClick="clicker"
+                    android:padding="5dp"
+                    android:text="@string/view_booking"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/white_bag_curved_border"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#0072bc"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="5dp"
+                    android:text="@string/acc_setiing"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tv_text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="If you already have an account Please Login."
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/email"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_emailid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_bag_curved_border"
+                    android:gravity="right"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/spn_countrycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/password"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/white_bag_curved_border"
+                    android:gravity="right"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:textColor="@android:color/black" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    style="@style/Base.TextAppearance.AppCompat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonfocus"
+                    android:fontFamily="sans-serif-condensed"
+                    android:onClick="clicker"
+                    android:padding="5dp"
+                    android:text="@string/login"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

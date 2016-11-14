@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/tv_transit_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonfocus"
+            android:padding="5dp"
+            android:text="Layover: 6Hrs"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/iv_flight_logo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_no_image" />
+
+            <TextView
+                android:id="@+id/tv_flight_name"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="Jet Airways India"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_depart_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="right"
+                android:text="10.30 A.M"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0072bc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_depart_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="right"
+                android:text="Small Text"
+                android:textColor="#757575" />
+
+            <TextView
+                android:id="@+id/tv_depart_airport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="right"
+                android:text="Small Text"
+                android:textColor="#757575" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/flightlogo"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_departure" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_arrival_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="10.30 A.M"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0072bc"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_arrival_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Small Text"
+                android:textColor="#757575" />
+
+            <TextView
+                android:id="@+id/tv_arrival_airport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Small Text"
+                android:textColor="#757575" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_flight_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:text="Economy Class"
+        android:textColor="#0072bc"
+        android:layout_marginBottom="7dp" />
+
+</LinearLayout>
